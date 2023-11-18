@@ -154,7 +154,7 @@ img {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 2rem 0;
   overflow: hidden;
 }
 
@@ -642,7 +642,7 @@ header .circle {
 .gallery-image img {
   position: absolute;
   height: 115%;
-  width: initial;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -738,6 +738,7 @@ header .circle {
 
 .skills {
   margin: 1.5rem 0 2.5rem 0;
+  width: 60%;
 }
 
 .skill {
@@ -1555,6 +1556,7 @@ header .circle {
   }
 
   .icon {
+    height: auto;
     width: 65px;
     margin-bottom: 0.8rem;
   }
@@ -1848,6 +1850,14 @@ header .circle {
   .column-1 {
     margin-right: 0;
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column-1 p{
+    font-size: small;
   }
 
   .column-2 {
