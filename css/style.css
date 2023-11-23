@@ -359,7 +359,8 @@ nav.open .links {
 }
 
 .header-title {
-  font-size: 3.8rem;
+  margin-top: 20px;
+  font-size: 3.6rem;
   line-height: 0.8;
   color: var(--dark-one);
 }
@@ -370,8 +371,9 @@ nav.open .links {
 
 .header-content .image .img-element {
   max-width: 750px;
-  height: 450px;
-  width: 450px;
+  height: 600px;
+  width: 400px;
+  border-radius: 50px;
 }
 
 header .points1 {
@@ -738,7 +740,6 @@ header .circle {
 
 .skills {
   margin: 1.5rem 0 2.5rem 0;
-  width: 60%;
 }
 
 .skill {
@@ -1245,7 +1246,7 @@ header .circle {
 
 .footer .grid-4 {
   display: grid;
-  grid-template-columns: 3.5fr 2fr 2fr 3fr;
+  grid-template-columns: 3.5fr 2fr 2fr;
 }
 
 .grid-4-col {
@@ -1284,8 +1285,6 @@ header .circle {
 }
 
 .footer-input {
-  background: #373737;
-  color: #333;
   outline: none;
   border: none;
   padding: 0 1.5rem;
@@ -1316,7 +1315,7 @@ header .circle {
   padding: 0 1.7rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .copyright .text {
@@ -1366,8 +1365,10 @@ header .circle {
 }
 
 .back-btn-wrap {
-  position: relative;
-  margin-left: 2.5rem;
+  position: fixed;
+  bottom: 5%;
+  right:5%;
+  z-index: 900;
 }
 
 .back-btn {
